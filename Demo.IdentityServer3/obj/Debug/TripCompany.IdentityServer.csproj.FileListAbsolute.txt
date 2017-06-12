@@ -1,0 +1,19 @@
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\TripCompany.IdentityServer.dll.config
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\TripCompany.IdentityServer.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\TripCompany.IdentityServer.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\IdentityServer3.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.Security.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Owin.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\TripGallery.Constants.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\TripGallery.Constants.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\IdentityServer3.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\IdentityServer3.xml
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.xml
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\bin\Microsoft.Owin.Security.xml
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripCompany.IdentityServer\obj\Debug\TripCompany.IdentityServer.pdb

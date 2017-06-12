@@ -1,0 +1,16 @@
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.deps.json
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.xml
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.dll
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.pdb
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.dll
+C:\Users\tharknes\Documents\GitHub\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.pdb
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.deps.json
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.xml
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\bin\Debug\netstandard1.4\IdentityServer4.pdb
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.AssemblyInfo.cs
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\IdentityServer4\obj\Debug\netstandard1.4\IdentityServer4.pdb

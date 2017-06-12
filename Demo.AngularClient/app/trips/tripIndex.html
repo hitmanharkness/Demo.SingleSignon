@@ -1,0 +1,27 @@
+﻿
+    <h2 class="leftMarginDefault">WebApi Call</h2>
+
+    <!-- Button should result in error when not logged in (we WILL show it, just to ensure we can see
+        what happens/goes on)-->
+
+
+ 
+    <div class="container">
+     
+        <div class="col-md-6 bottomMarginDefault" ng-repeat="trip in vm.trips">
+
+            <div class="pull-left rightMarginDefault">
+                <img class="tripImage img-circle" ng-src="{{trip.mainPictureUri}}" />
+
+            </div>
+            <div>
+                <div class="h3">{{trip.name}}</div>
+                <div>{{trip.description}}</div>
+
+
+            </div> 
+                
+        </div>
+            
+    </div>
+

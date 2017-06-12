@@ -1,0 +1,28 @@
+﻿@model TripGallery.MVCClient.Models.TripsIndexViewModel 
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="leftMarginDefault">MVC Client</h2>
+
+
+ 
+<div class="container">
+    @foreach (var item in Model.Trips)
+    {
+        <div class="col-md-6 bottomMarginDefault">
+
+            <div class="pull-left rightMarginDefault"> 
+                <img class="tripImage img-circle" src="@item.MainPictureUri" />
+
+            </div>
+            <div >
+                <div class="h3">@item.Name</div>
+                <div>@item.Description</div>
+
+
+            </div>
+        </div>
+    }
+</div> 

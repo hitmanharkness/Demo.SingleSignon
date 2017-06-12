@@ -1,0 +1,9 @@
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\bin\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.deps.json
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\bin\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.runtimeconfig.json
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\bin\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.runtimeconfig.dev.json
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\bin\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\bin\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.pdb
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\obj\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.AssemblyInfo.cs
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\obj\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\obj\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.pdb
+C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.IdentityServer4.ASPNETCoreIdentity\obj\Debug\netcoreapp1.1\Demo.IdentityServer4.ASPNETCoreIdentity.csprojResolveAssemblyReference.cache

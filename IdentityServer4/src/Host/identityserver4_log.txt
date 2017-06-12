@@ -1,0 +1,47 @@
+2017-06-12 13:42:18.194 -06:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-06-12 13:42:18.272 -06:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-06-12 13:42:18.283 -06:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-06-12 13:42:18.605 -06:00 [Information] User profile is available. Using '"C:\Users\tharknes\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-06-12 13:42:19.452 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-06-12 13:42:19.452 -06:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-06-12 13:42:19.633 -06:00 [Information] Request finished in 215.9306ms 200 
+2017-06-12 13:42:20.150 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" with arguments (null) - ModelState is Valid
+2017-06-12 13:42:23.499 -06:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-06-12 13:42:24.050 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2017-06-12 13:42:24.054 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2017-06-12 13:42:24.054 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2017-06-12 13:42:24.054 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2017-06-12 13:42:24.065 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2017-06-12 13:42:24.084 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2017-06-12 13:42:24.084 -06:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\jquery\jquery.js"'
+2017-06-12 13:42:24.084 -06:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\css\site.css"'
+2017-06-12 13:42:24.084 -06:00 [Information] Sending file. Request path: '"/icon.jpg"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.jpg"'
+2017-06-12 13:42:24.084 -06:00 [Information] Sending file. Request path: '"/icon.png"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.png"'
+2017-06-12 13:42:24.089 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" in 4153.9529ms
+2017-06-12 13:42:24.190 -06:00 [Information] Request finished in 140.7791ms 200 image/png
+2017-06-12 13:42:24.190 -06:00 [Information] Request finished in 135.526ms 200 image/jpeg
+2017-06-12 13:42:24.199 -06:00 [Information] Request finished in 144.42ms 200 text/css
+2017-06-12 13:42:24.199 -06:00 [Information] Request finished in 136.296ms 200 text/css
+2017-06-12 13:42:24.240 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2017-06-12 13:42:24.241 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2017-06-12 13:42:24.241 -06:00 [Information] Request finished in 176.202ms 200 application/javascript
+2017-06-12 13:42:24.252 -06:00 [Information] Request finished in 12.1528ms 200 application/javascript
+2017-06-12 13:42:24.254 -06:00 [Information] Request finished in 4850.753ms 200 text/html; charset=utf-8
+2017-06-12 13:42:31.439 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/grants  
+2017-06-12 13:42:31.484 -06:00 [Information] Authorization failed for user: null.
+2017-06-12 13:42:31.487 -06:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-06-12 13:42:31.492 -06:00 [Information] Executing ChallengeResult with authentication schemes (["idsrv"]).
+2017-06-12 13:42:31.523 -06:00 [Information] AuthenticationScheme: "idsrv" was challenged.
+2017-06-12 13:42:31.523 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.GrantsController.Index (Host)" in 64.2829ms
+2017-06-12 13:42:31.523 -06:00 [Information] Request finished in 84.032ms 302 
+2017-06-12 13:42:31.532 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fgrants  
+2017-06-12 13:42:31.768 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (Host)" with arguments (["/grants"]) - ModelState is Valid
+2017-06-12 13:42:32.128 -06:00 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2017-06-12 13:42:32.616 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (Host)" in 1080.67ms
+2017-06-12 13:42:32.616 -06:00 [Information] Request finished in 1084.4358ms 200 text/html; charset=utf-8
+2017-06-12 13:42:38.077 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/account/ExternalLogin?provider=aad&returnUrl=%2Fgrants  
+2017-06-12 13:42:38.158 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host)" with arguments (["aad", "/grants"]) - ModelState is Valid
+2017-06-12 13:42:38.179 -06:00 [Information] Executing ChallengeResult with authentication schemes (["aad"]).
+2017-06-12 13:42:39.556 -06:00 [Information] AuthenticationScheme: "aad" was challenged.
+2017-06-12 13:42:39.558 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host)" in 1474.9175ms
+2017-06-12 13:42:39.558 -06:00 [Information] Request finished in 1481.2661ms 302 

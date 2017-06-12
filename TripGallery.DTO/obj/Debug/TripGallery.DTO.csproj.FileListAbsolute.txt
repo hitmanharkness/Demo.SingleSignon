@@ -1,0 +1,14 @@
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.DTO\bin\Debug\TripGallery.DTO.pdb
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.DTO\bin\Debug\TripGallery.DTO.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\bin\Debug\TripGallery.DTO.pdb
+C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
+C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb

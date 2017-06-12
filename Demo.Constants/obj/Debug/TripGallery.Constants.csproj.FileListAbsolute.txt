@@ -1,0 +1,8 @@
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Desktop\Development\All Identity and Security\AUTHENTICATION_PLAYGROUND\angular_auth2-openid\7-oauth2-openid-exercise-files\end\TripGallery\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Desktop\TripGallery7\TripGallery.Constants\obj\Debug\TripGallery.Constants.pdb

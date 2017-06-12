@@ -1,0 +1,32 @@
+version: '2'
+
+services:
+  demo.netcoremvc:
+    image: demo.netcoremvc
+    build:
+      context: ./Demo.NetCoreMVC
+      dockerfile: Dockerfile
+
+  demo.coremvc1:
+    image: demo.coremvc1
+    build:
+      context: ./Demo.CoreMVC(1)
+      dockerfile: Dockerfile
+
+  demo.coremvc3:
+    image: demo.coremvc3
+    build:
+      context: ./Demo.CoreMVC(3)
+      dockerfile: Dockerfile
+
+  demo.dotnetcore:
+    image: demo.dotnetcore
+    build:
+      context: ./Demo.DotNetCore
+      dockerfile: Dockerfile
+
+  demo.identityserver4:
+    image: demo.identityserver4
+    build:
+      context: ./Demo.IdentityServer4
+      dockerfile: Dockerfile
