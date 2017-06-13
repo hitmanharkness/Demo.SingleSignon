@@ -10971,10 +10971,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\IdentityServer.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\IdentityServer.UnitTests.csproj",
       "projectName": "IdentityServer.UnitTests",
-      "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\IdentityServer.UnitTests.csproj",
-      "outputPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\IdentityServer.UnitTests.csproj",
+      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\test\\IdentityServer.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "originalTargetFrameworks": [
@@ -10984,15 +10984,15 @@
       "frameworks": {
         "net452": {
           "projectReferences": {
-            "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
-              "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
+            "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
+              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
             }
           }
         },
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
-              "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
+            "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
+              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
             }
           }
         }

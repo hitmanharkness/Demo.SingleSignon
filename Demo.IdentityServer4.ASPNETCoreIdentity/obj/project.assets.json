@@ -11133,10 +11133,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\Demo.IdentityServer4.ASPNETCoreIdentity.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\Demo.IdentityServer4.ASPNETCoreIdentity.csproj",
       "projectName": "Demo.IdentityServer4.ASPNETCoreIdentity",
-      "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\Demo.IdentityServer4.ASPNETCoreIdentity.csproj",
-      "outputPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\obj\\",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\Demo.IdentityServer4.ASPNETCoreIdentity.csproj",
+      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.IdentityServer4.ASPNETCoreIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

@@ -8,3 +8,8 @@ C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.Constants\bin\Debug\TripGallery
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.Constants\obj\Debug\Demo.Constants.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.Constants\obj\Debug\TripGallery.Constants.dll
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.Constants\obj\Debug\TripGallery.Constants.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.Constants\bin\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.Constants\bin\Debug\TripGallery.Constants.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.Constants\obj\Debug\Demo.Constants.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.Constants\obj\Debug\TripGallery.Constants.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.Constants\obj\Debug\TripGallery.Constants.pdb

@@ -45,3 +45,73 @@
 2017-06-12 13:42:39.556 -06:00 [Information] AuthenticationScheme: "aad" was challenged.
 2017-06-12 13:42:39.558 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host)" in 1474.9175ms
 2017-06-12 13:42:39.558 -06:00 [Information] Request finished in 1481.2661ms 302 
+2017-06-12 14:19:25.693 -06:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-06-12 14:19:25.750 -06:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-06-12 14:19:25.757 -06:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-06-12 14:19:26.060 -06:00 [Information] User profile is available. Using '"C:\Users\tharknes\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-06-12 14:19:26.738 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-06-12 14:19:26.738 -06:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-06-12 14:19:26.941 -06:00 [Information] Request finished in 227.4794ms 200 
+2017-06-12 14:19:27.500 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" with arguments (null) - ModelState is Valid
+2017-06-12 14:19:30.217 -06:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-06-12 14:19:30.821 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2017-06-12 14:19:30.821 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2017-06-12 14:19:30.821 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2017-06-12 14:19:30.821 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2017-06-12 14:19:30.834 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2017-06-12 14:19:30.836 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" in 3524.5096ms
+2017-06-12 14:19:30.843 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2017-06-12 14:19:30.843 -06:00 [Information] Sending file. Request path: '"/icon.jpg"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.jpg"'
+2017-06-12 14:19:30.843 -06:00 [Information] Sending file. Request path: '"/icon.png"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.png"'
+2017-06-12 14:19:30.843 -06:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\jquery\jquery.js"'
+2017-06-12 14:19:30.843 -06:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\css\site.css"'
+2017-06-12 14:19:30.853 -06:00 [Information] Request finished in 4153.3603ms 200 text/html; charset=utf-8
+2017-06-12 14:19:30.855 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2017-06-12 14:19:30.855 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2017-06-12 14:19:30.916 -06:00 [Information] Request finished in 60.7708ms 200 application/javascript
+2017-06-12 14:19:30.916 -06:00 [Information] Request finished in 94.4948ms 200 text/css
+2017-06-12 14:19:30.916 -06:00 [Information] Request finished in 94.4775ms 200 image/png
+2017-06-12 14:19:30.916 -06:00 [Information] Request finished in 81.5897ms 200 application/javascript
+2017-06-12 14:19:30.916 -06:00 [Information] Request finished in 94.4948ms 200 image/jpeg
+2017-06-12 14:19:30.919 -06:00 [Information] Request finished in 97.7118ms 200 text/css
+2017-06-12 14:19:32.853 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/grants  
+2017-06-12 14:19:32.902 -06:00 [Information] Authorization failed for user: null.
+2017-06-12 14:19:32.906 -06:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-06-12 14:19:32.912 -06:00 [Information] Executing ChallengeResult with authentication schemes (["idsrv"]).
+2017-06-12 14:19:32.953 -06:00 [Information] AuthenticationScheme: "idsrv" was challenged.
+2017-06-12 14:19:32.953 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.GrantsController.Index (Host)" in 80.2299ms
+2017-06-12 14:19:32.954 -06:00 [Information] Request finished in 100.6076ms 302 
+2017-06-12 14:19:32.960 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/account/login?returnUrl=%2Fgrants  
+2017-06-12 14:19:33.177 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (Host)" with arguments (["/grants"]) - ModelState is Valid
+2017-06-12 14:19:33.587 -06:00 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2017-06-12 14:19:34.061 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (Host)" in 1094.991ms
+2017-06-12 14:19:34.062 -06:00 [Information] Request finished in 1102.1737ms 200 text/html; charset=utf-8
+2017-06-13 08:10:05.793 -06:00 [Information] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2017-06-13 08:10:05.857 -06:00 [Debug] Using built-in CookieAuthentication middleware with scheme: "idsrv"
+2017-06-13 08:10:05.863 -06:00 [Debug] Adding CookieAuthentication middleware for external authentication with scheme: "idsrv.external"
+2017-06-13 08:10:06.254 -06:00 [Information] User profile is available. Using '"C:\Users\tharknes\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2017-06-13 08:10:07.056 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/  
+2017-06-13 08:10:07.056 -06:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:5000/  0
+2017-06-13 08:10:07.247 -06:00 [Information] Request finished in 226.7391ms 200 
+2017-06-13 08:10:07.810 -06:00 [Information] Executing action method "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" with arguments (null) - ModelState is Valid
+2017-06-13 08:10:10.994 -06:00 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2017-06-13 08:10:11.567 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.png  
+2017-06-13 08:10:11.567 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/css/bootstrap.css  
+2017-06-13 08:10:11.567 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/icon.jpg  
+2017-06-13 08:10:11.577 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/css/site.css  
+2017-06-13 08:10:11.578 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/jquery/jquery.js  
+2017-06-13 08:10:11.598 -06:00 [Information] Executed action "IdentityServer4.Quickstart.UI.HomeController.Index (Host)" in 3961.449ms
+2017-06-13 08:10:11.611 -06:00 [Information] Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\jquery\jquery.js"'
+2017-06-13 08:10:11.611 -06:00 [Information] Sending file. Request path: '"/icon.png"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.png"'
+2017-06-13 08:10:11.611 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\css\bootstrap.css"'
+2017-06-13 08:10:11.612 -06:00 [Information] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\css\site.css"'
+2017-06-13 08:10:11.611 -06:00 [Information] Sending file. Request path: '"/icon.jpg"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\icon.jpg"'
+2017-06-13 08:10:11.621 -06:00 [Information] Request finished in 4614.4297ms 200 text/html; charset=utf-8
+2017-06-13 08:10:11.625 -06:00 [Information] Request starting HTTP/1.1 GET http://localhost:5000/lib/bootstrap/js/bootstrap.js  
+2017-06-13 08:10:11.626 -06:00 [Information] Sending file. Request path: '"/lib/bootstrap/js/bootstrap.js"'. Physical path: '"C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\wwwroot\lib\bootstrap\js\bootstrap.js"'
+2017-06-13 08:10:11.667 -06:00 [Information] Request finished in 99.2941ms 200 text/css
+2017-06-13 08:10:11.667 -06:00 [Information] Request finished in 99.2941ms 200 image/jpeg
+2017-06-13 08:10:11.668 -06:00 [Information] Request finished in 100.6479ms 200 image/png
+2017-06-13 08:10:11.668 -06:00 [Information] Request finished in 91.4094ms 200 text/css
+2017-06-13 08:10:11.667 -06:00 [Information] Request finished in 41.8896ms 200 application/javascript
+2017-06-13 08:10:11.672 -06:00 [Information] Request finished in 94.7425ms 200 application/javascript

@@ -10955,10 +10955,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.DotNetCore\\Demo.DotNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.DotNetCore\\Demo.DotNetCore.csproj",
       "projectName": "Demo.DotNetCore",
-      "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.DotNetCore\\Demo.DotNetCore.csproj",
-      "outputPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\Demo.DotNetCore\\obj\\",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.DotNetCore\\Demo.DotNetCore.csproj",
+      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\Demo.DotNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

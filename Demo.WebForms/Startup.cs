@@ -66,31 +66,45 @@ namespace BI.UI.WebApp
                         await DecodeAndWrite(n.ProtocolMessage.IdToken);
                         await DecodeAndWrite(n.ProtocolMessage.AccessToken);
 
-                    }
-                }
-            });
+                    },
+					AuthenticationFailed = (context) =>
+					{
+						if (context.Exception.Message.StartsWith("OICE_20004") || context.Exception.Message.Contains("IDX10311"))
+						{
+							context.SkipToNextMiddleware();
+							return Task.FromResult(0);
+						}
+						return Task.FromResult(0);
+					}
+				},
 
-            app.Use((context, next) =>
-            {
-                if (context.Authentication.User != null &&
-                    context.Authentication.User.Identity != null &&
-                    context.Authentication.User.Identity.IsAuthenticated)
-                {
-                    return next();
-                }
-                else
-                {
-                    //params 
-                    //AuthenticationTypes authenticationTypes = AuthenticationTypes.Federation;
-                    //AuthenticationProperties authenticationProperties = new AuthenticationProperties();
-                    //authenticationProperties.
-                    // redirects to your provider
-                    //context.Authentication.Challenge(authenticationProperties, null);
-                    context.Authentication.Challenge(new AuthenticationProperties(), null);
-                    return Task.FromResult(0);
-                }
-            });
-        }
+
+
+			});
+
+			app.Use((context, next) =>
+			{
+				if (context.Authentication.User != null &&
+					context.Authentication.User.Identity != null &&
+					context.Authentication.User.Identity.IsAuthenticated)
+				{
+					return next();
+				}
+				else
+				{
+					//params 
+					//AuthenticationTypes authenticationTypes = AuthenticationTypes.Federation;
+					//AuthenticationProperties authenticationProperties = new AuthenticationProperties();
+					//authenticationProperties.
+					// redirects to your provider
+					//context.Authentication.Challenge(authenticationProperties, null);
+					bool variable = true;
+					if (variable)
+						context.Authentication.Challenge(new AuthenticationProperties(), null);
+					return Task.FromResult(0);
+				}
+			});
+		}
         public static Task<string> DecodeAndWrite(string token)
         {
             //try
@@ -122,8 +136,8 @@ namespace BI.UI.WebApp
 
                 // Write to output
                 Debug.Write(jwt.ToString());
-      return Task<int>.Run(() =>
-      {
+				return Task<int>.Run(() =>
+				{
                        return jwt.ToString();
                     });
 
@@ -140,8 +154,8 @@ namespace BI.UI.WebApp
             HttpRuntime.Cache["AccessToken"] = token;
 
             //
-      return Task.Run(() =>
-      {
+			return Task.Run(() =>
+			{
                 Debug.Write("Storing the access token!");
             });
 
@@ -149,6 +163,13 @@ namespace BI.UI.WebApp
         }
     }
 
+
+
+
+
+
+
+	// This is for the MVC stuff.  I'm not sure it's relevant for the webforms example.
     public class AuthorizationManager : ResourceAuthorizationManager
     {
         public override Task<bool> CheckAccessAsync(ResourceAuthorizationContext context)
@@ -162,8 +183,11 @@ namespace BI.UI.WebApp
             }
         }
 
+
+
         private Task<bool> AuthorizeCaseloads(ResourceAuthorizationContext context)
         {
+
             switch (context.Action.First().Value)
             {
                 case "Read":

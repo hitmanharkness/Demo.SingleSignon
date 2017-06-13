@@ -22,3 +22,15 @@ C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\n
 C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.AssemblyInfo.cs
 C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.dll
 C:\Users\tharknes\Desktop\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\Host.deps.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\Host.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\Host.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\Host.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\Host.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\IdentityServer4.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\IdentityServer4.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\bin\Debug\netcoreapp1.1\IdentityServer4.xml
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\IdentityServer4\src\Host\obj\Debug\netcoreapp1.1\Host.pdb

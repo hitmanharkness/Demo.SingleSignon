@@ -10215,10 +10215,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\Host.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\Host.csproj",
       "projectName": "Host",
-      "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\Host.csproj",
-      "outputPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\obj\\",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\Host.csproj",
+      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\Host\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -10226,8 +10226,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
-              "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
+            "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj": {
+              "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj"
             }
           }
         }

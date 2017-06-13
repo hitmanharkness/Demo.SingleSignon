@@ -6974,10 +6974,10 @@
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj",
+      "projectUniqueName": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj",
       "projectName": "IdentityServer4",
-      "projectPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj",
-      "outputPath": "C:\\Users\\tharknes\\Desktop\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\obj\\",
+      "projectPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\IdentityServer4.csproj",
+      "outputPath": "C:\\Users\\tharknes\\Documents\\GitHub\\Demo.IdentityServer\\Demo.SingleSignon\\IdentityServer4\\src\\IdentityServer4\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "originalTargetFrameworks": [

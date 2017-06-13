@@ -8,3 +8,13 @@ C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.AssemblyInfo.cs
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.dll
 C:\Users\tharknes\Desktop\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\bin\Debug\netcoreapp1.1\Demo.DotNetCore.deps.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\bin\Debug\netcoreapp1.1\Demo.DotNetCore.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\bin\Debug\netcoreapp1.1\Demo.DotNetCore.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\bin\Debug\netcoreapp1.1\Demo.DotNetCore.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\bin\Debug\netcoreapp1.1\Demo.DotNetCore.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\Demo.DotNetCore\obj\Debug\netcoreapp1.1\Demo.DotNetCore.pdb
