@@ -6,7 +6,7 @@ namespace TripGallery
 
         public const string TripGalleryAPI = "https://localhost:44315/";
 
-        public const string WebForms = "http://localhost:40301/";
+        public const string WebForms = "https://localhost:44305/";
 		public const string MVC = "https://localhost:44318/";
         public const string TripGalleryMVCSTSCallback = "https://localhost:44318/stscallback";
 

@@ -48,11 +48,36 @@ namespace BI.UI.WebApp
                 AuthenticationType = "Cookies"
             });
 
-            app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
+			// Challenges
+			//https://stackoverflow.com/questions/31427066/set-challenge-in-owin-middleware
+			app.Use((context, next) =>
+			{
+				if (context.Authentication.User != null &&
+					context.Authentication.User.Identity != null &&
+					context.Authentication.User.Identity.IsAuthenticated)
+				{
+					return next();
+				}
+				else
+				{
+					bool challenge = false;
+					if (context.Request.Uri == new Uri("https://localhost:44305/default.aspx"))
+						challenge = true;
+
+
+					if (challenge)
+						context.Authentication.Challenge(new AuthenticationProperties(), null);
+
+				    return next(); //Task.FromResult(0);
+				}
+			});
+
+			//https://pastebin.com/M2MX0u69
+			app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
                 ClientId = "webformshybrid",
                 Authority = "https://localhost:44317/identity",
-                RedirectUri = "http://localhost:40301/",
+                RedirectUri = "https://localhost:44305/",
                 SignInAsAuthenticationType = "Cookies",
 
                 ResponseType = "code id_token token",
@@ -72,7 +97,7 @@ namespace BI.UI.WebApp
 						if (context.Exception.Message.StartsWith("OICE_20004") || context.Exception.Message.Contains("IDX10311"))
 						{
 							context.SkipToNextMiddleware();
-							return Task.FromResult(0);
+							//return Task.FromResult(0);
 						}
 						return Task.FromResult(0);
 					}
@@ -82,28 +107,7 @@ namespace BI.UI.WebApp
 
 			});
 
-			app.Use((context, next) =>
-			{
-				if (context.Authentication.User != null &&
-					context.Authentication.User.Identity != null &&
-					context.Authentication.User.Identity.IsAuthenticated)
-				{
-					return next();
-				}
-				else
-				{
-					//params 
-					//AuthenticationTypes authenticationTypes = AuthenticationTypes.Federation;
-					//AuthenticationProperties authenticationProperties = new AuthenticationProperties();
-					//authenticationProperties.
-					// redirects to your provider
-					//context.Authentication.Challenge(authenticationProperties, null);
-					bool variable = true;
-					if (variable)
-						context.Authentication.Challenge(new AuthenticationProperties(), null);
-					return Task.FromResult(0);
-				}
-			});
+
 		}
         public static Task<string> DecodeAndWrite(string token)
         {
@@ -170,39 +174,39 @@ namespace BI.UI.WebApp
 
 
 	// This is for the MVC stuff.  I'm not sure it's relevant for the webforms example.
-    public class AuthorizationManager : ResourceAuthorizationManager
-    {
-        public override Task<bool> CheckAccessAsync(ResourceAuthorizationContext context)
-        {
-            switch (context.Resource.First().Value)
-            {
-                case "Caseload":
-                    return AuthorizeCaseloads(context);
-                default:
-                    return Nok();
-            }
-        }
+    //public class AuthorizationManager : ResourceAuthorizationManager
+    //{
+    //    public override Task<bool> CheckAccessAsync(ResourceAuthorizationContext context)
+    //    {
+    //        switch (context.Resource.First().Value)
+    //        {
+    //            case "Caseload":
+    //                return AuthorizeCaseloads(context);
+    //            default:
+    //                return Nok();
+    //        }
+    //    }
 
 
 
-        private Task<bool> AuthorizeCaseloads(ResourceAuthorizationContext context)
-        {
+    //    //private Task<bool> AuthorizeCaseloads(ResourceAuthorizationContext context)
+    //    //{
 
-            switch (context.Action.First().Value)
-            {
-                case "Read":
-                    // to be able to read an expensegroups from the API, the user must be in the
-                    // WebReadUser role or MobileReadUser role
-                    return
-                        Eval(context.Principal.HasClaim("role", "MobileReadUser")
-                        || (context.Principal.HasClaim("role", "WebReadUser")));
+    //    //    switch (context.Action.First().Value)
+    //    //    {
+    //    //        case "Read":
+    //    //            // to be able to read an expensegroups from the API, the user must be in the
+    //    //            // WebReadUser role or MobileReadUser role
+    //    //            return
+    //    //                Eval(context.Principal.HasClaim("role", "MobileReadUser")
+    //    //                || (context.Principal.HasClaim("role", "WebReadUser")));
 
-                default:
-                    return Nok();
-            }
-        }
+    //    //        default:
+    //    //            return Nok();
+    //    //    }
+    //    //}
 
-    }
+    //}
 
 
 
