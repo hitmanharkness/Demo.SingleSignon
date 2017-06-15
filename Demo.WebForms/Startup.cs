@@ -75,21 +75,21 @@ namespace BI.UI.WebApp
 			//https://pastebin.com/M2MX0u69
 			app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
             {
-                ClientId = "webformshybrid",
-                Authority = "https://localhost:44317/identity",
+                ClientId = "webforms",
+                Authority = "http://localhost:5000",
                 RedirectUri = "https://localhost:44305/",
                 SignInAsAuthenticationType = "Cookies",
 
-                ResponseType = "code id_token token",
-                Scope = "openid profile gallerymanagement",
+                ResponseType = "id_token",
+                Scope = "openid profile",
 
                 Notifications = new OpenIdConnectAuthenticationNotifications()
                 {
                     MessageReceived = async n =>
                     {
-                        await SaveAccessToken(n.ProtocolMessage.AccessToken);
+                        //await SaveAccessToken(n.ProtocolMessage.AccessToken);
                         await DecodeAndWrite(n.ProtocolMessage.IdToken);
-                        await DecodeAndWrite(n.ProtocolMessage.AccessToken);
+                        //await DecodeAndWrite(n.ProtocolMessage.AccessToken);
 
                     },
 					AuthenticationFailed = (context) =>
@@ -106,7 +106,39 @@ namespace BI.UI.WebApp
 
 
 			});
+			//app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions
+			//{
+			//	ClientId = "webformshybrid",
+			//	Authority = "https://localhost:44317/identity",
+			//	RedirectUri = "https://localhost:44305/",
+			//	SignInAsAuthenticationType = "Cookies",
 
+			//	ResponseType = "code id_token token",
+			//	Scope = "openid profile gallerymanagement",
+
+			//	Notifications = new OpenIdConnectAuthenticationNotifications()
+			//	{
+			//		MessageReceived = async n =>
+			//		{
+			//			await SaveAccessToken(n.ProtocolMessage.AccessToken);
+			//			await DecodeAndWrite(n.ProtocolMessage.IdToken);
+			//			await DecodeAndWrite(n.ProtocolMessage.AccessToken);
+
+			//		},
+			//		AuthenticationFailed = (context) =>
+			//		{
+			//			if (context.Exception.Message.StartsWith("OICE_20004") || context.Exception.Message.Contains("IDX10311"))
+			//			{
+			//				context.SkipToNextMiddleware();
+			//				//return Task.FromResult(0);
+			//			}
+			//			return Task.FromResult(0);
+			//		}
+			//	},
+
+
+
+			//});
 
 		}
         public static Task<string> DecodeAndWrite(string token)

@@ -16,7 +16,9 @@ namespace TripGallery
 
         public const string IssuerUri = "https://sts/identity";
         public const string STSOrigin = "https://localhost:44317";
+
         public const string TripGallerySTS = STSOrigin + "/identity";
+
         public const string TripGallerySTSTokenEndpoint = TripGallerySTS + "/connect/token";
         public const string TripGallerySTSAuthorizationEndpoint = TripGallerySTS + "/connect/authorize";
         public const string TripGallerySTSUserInfoEndpoint = TripGallerySTS + "/connect/userinfo";

@@ -14,6 +14,5 @@ C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGaller
 C:\Users\tharknes\Desktop\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.DTO\bin\Debug\TripGallery.DTO.dll
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.DTO\bin\Debug\TripGallery.DTO.pdb
-C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.dll
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.DTO\obj\Debug\TripGallery.DTO.pdb

@@ -1,0 +1,17 @@
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.deps.json
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.pdb
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.csprojResolveAssemblyReference.cache
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\tharknes\Documents\GitHub\IdentityServer4.Samples\Quickstarts\3_ImplicitFlowAuthentication\src\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.deps.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.runtimeconfig.dev.json
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\bin\Debug\netcoreapp1.1\MvcClient.pdb
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.AssemblyInfo.cs
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.dll
+C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\MvcClient\obj\Debug\netcoreapp1.1\MvcClient.pdb

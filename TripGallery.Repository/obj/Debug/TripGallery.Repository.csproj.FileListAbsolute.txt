@@ -22,6 +22,5 @@ C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGal
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\bin\Debug\Newtonsoft.Json.dll
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\bin\Debug\Microsoft.Owin.FileSystems.xml
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\bin\Debug\Newtonsoft.Json.xml
-C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\obj\Debug\TripGallery.Repository.csprojResolveAssemblyReference.cache
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\obj\Debug\TripGallery.Repository.dll
 C:\Users\tharknes\Documents\GitHub\Demo.IdentityServer\Demo.SingleSignon\TripGallery.Repository\obj\Debug\TripGallery.Repository.pdb
